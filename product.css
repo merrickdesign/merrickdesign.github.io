@@ -1,3 +1,14 @@
+h1, h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+p, .btn{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
 .coverImage{
     width: 35%;
     margin: 3%;
@@ -104,3 +115,4 @@ mark{
 }
 
 .overflow-hidden { overflow: hidden; }
+
