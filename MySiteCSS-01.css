@@ -2,14 +2,14 @@ body{
     background-color: #1A1A1A; 
 }
 
-/*html{
-    background-color: #DF6FB2; 
-}*/
+ /*html{
+   background-color: #DF6FB2;
+}*/ 
 
 /*Typography*/
 
 h1, h2, h3, p, .anno{
-    color: #E6E6E6;
+    color: #cfcfcf;
     font-family: 'Space Mono', monospace;
     font-weight: 400;
     font-style: normal;
@@ -18,16 +18,19 @@ h1, h2, h3, p, .anno{
 h1{
     font-size: 3.157rem;
     line-height: 110%;
+    color: #E6E6E6;
 }
 
 h2{
     font-size: 1.777rem;
     line-height: 160%;
+    color: #E6E6E6;
 }
 
 h3, a{
     font-size: 1.333rem;
     line-height: 160%;
+    padding-bottom: .25rem;
 }
 
 p{
@@ -38,8 +41,8 @@ p{
 .anno{
     font-size: .75rem;
     line-height: 110%;
-    color: #9999;
 }
+
 
 /*Layout*/
 
@@ -49,8 +52,6 @@ html, body {
 }
 
 .wrapper{
-    display: grid;
-    gap: 2rem;
     padding-top: 4rem;
     padding-bottom: 8rem;
     min-height: 100vh;
@@ -58,12 +59,15 @@ html, body {
 
 .sub{
     display: grid;
-    gap: .5rem;  
-
+    gap: .25rem;  
 }
 
 
 img{
     float: left;
     height: 1.5rem;
+}
+
+div{
+    padding-bottom: 2rem;
 }
