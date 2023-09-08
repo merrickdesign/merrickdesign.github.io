@@ -1,0 +1,137 @@
+
+html{
+    background-color: var(--Black-10);
+}
+
+body{
+    background-color: var(--Black-10);
+    
+}
+
+/*Colors*/
+:root {
+    --Black-10: #1a1a1a;
+    --Black-15: #262626;
+
+    --White-95: #f2f2f2;
+    --White-90: #e6e6e6;
+    --White-85: #D9D9D9;
+    --White-80: #cccccc;
+    --White-60: #999999;
+    --White-100:#ffffff; 
+
+    --Green-01: #2FD79A;
+    --Yellow-01:#F0C96B;
+    --Blue-01: #4BBEFF;
+  }
+
+/*Typography*/
+
+h1, h2, h3, p, a, .anno{
+    color: var(--White-85);
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: 3.157rem;
+    line-height: 110%;
+    padding-top: 5rem;
+    color: var(--White-95);
+}
+
+h2{
+    font-size: 1.777rem;
+    line-height: 140%;
+    color: var(--White-95);
+}
+
+h3{
+    font-size: 1.333rem;
+    line-height: 140%;
+}
+
+a{
+    font-size: 1.333rem;
+    /*padding-top: .75rem;
+    padding-bottom: .75rem;*/
+}
+
+p{
+    font-size: 1rem;
+    line-height: 160%; 
+}
+
+.anno{
+    font-size: .75rem;
+    line-height: 110%;
+    color: var(--White-60);
+    padding-top: .75rem;
+}
+
+
+/*Layout*/
+a.anchor {
+    display: block;
+    position: relative;
+    top: -5rem;
+    visibility: hidden;
+}
+
+
+.footer{
+    padding-bottom: 10rem;
+}
+
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.row{
+    row-gap: 1rem; 
+}
+
+.section-links{
+    row-gap: 1.75rem;
+    padding-top: 1rem;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    background-color: var(--Black-15);
+    border-radius: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    background-color: var(--Black-10);     
+    }
+/* Hides extra columns */
+    .item-invisible {
+    display: none;
+  
+  }
+}
+
+/*Images*/
+
+img{
+    border-radius: .5rem;
+    width: 100%;
+}
