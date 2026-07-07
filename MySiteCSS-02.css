@@ -152,7 +152,8 @@ html, body {
     background-color: var(--Black-15);
     border-radius: 1.5rem;
     padding-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
 }
 
 
@@ -177,6 +178,12 @@ img{
     border-radius: .5rem;
     width: 100%;
 }
+
+.img-box{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 
 .btn{
     width: fit-content;
