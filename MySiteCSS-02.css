@@ -138,10 +138,10 @@ html, body {
     row-gap: 1rem;
 }*/ 
 
-.section-links{
+/*.section-links{
     row-gap: 1.75rem;
     
-}
+}*/
 
 
 .flex-container{
@@ -158,12 +158,12 @@ html, body {
 
 .CS-Card{
     background-color: var(--Black-15);
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     gap: .5;
     padding-bottom: 2rem;
-    padding-top: .5rem;
-    
-    
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -181,6 +181,14 @@ html, body {
   
   }
 }
+
+.nav-link{
+    padding-right: 2rem;
+    
+}
+   
+
+
 
 /*Images*/
 
